@@ -1,19 +1,19 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
+      // "rich-text",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row#some-row"
+      "flex-layout.row"
     ]
   },
-  "flex-layout.row#some-row":{
+  "flex-layout.row":{
     "children": [
       "info-card#rethink",
-      "flex-layout.col#some-col"
+      "flex-layout.col"
     ]
   },
-  "flex-layout.col#some-col":{
+  "flex-layout.col":{
     "children": [
       "image#electronics",
       "image#major-appliance"
@@ -31,12 +31,12 @@
       "maxWidth": "100%"
     }
   },
-  "rich-text": {
-    "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
-    }
-  },
+  // "rich-text": {
+  //   "props": {
+  //     "text": "**Hello, World!**",
+  //     "textPosition": "RIGHT"
+  //   }
+  // },
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -74,10 +74,5 @@
       "textPosition": "center"
     }
   }
-  // ,
-  // "rich-text#delete": {
-  //   "props": {
-  //     "text": "I'll be deleted soon"
-  //   }
-  // }
+  
 }
