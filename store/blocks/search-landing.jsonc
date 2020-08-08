@@ -17,7 +17,8 @@
             "orderByField": "OrderByReleaseDateASC",
             "maxItemsPerPage": 8,
             "hideUnavailableItems": true,
-            "skusFilter": "FIRST_AVAILABLE"
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
           }
         }
       }
