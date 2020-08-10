@@ -14,21 +14,26 @@
     "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   },
   "menu-item#small-appliances": {
-    "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
+    "children": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
   },
   "menu-item#electronics": {
     "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
   },
 
-  "vtex.menu@2.x:submenu#major": {
-    "children": [
-      "vtex.menu@2.x:menu#submenumajor"
-    ]
+
+
+
+
+  "vtex.menu@2.x:submenu#major":{
+    "children":[
+      "vtex.menu@2.x:menu#major"
+      
+    ],
+    "props":{
+        "orientation": "vertical"
+      }
   },
-
-
-
-  "vtex.menu@2.x:menu#submenumajor":{
+  "vtex.menu@2.x:menu#major":{
     "children":[
 
       "menu-item#refrigerators",
