@@ -29,7 +29,9 @@
               "Visa",
               "Diners Club"
           ],
+          "props": {
           "showInColor": true
+          }
       },
       "flex-layout.col#footer-right-desktop": {
         "children": [
@@ -42,6 +44,8 @@
             "Instagram",
             "Twitter"
         ],
+        "props": {
         "showInColor": true
+        }
     }
   }
