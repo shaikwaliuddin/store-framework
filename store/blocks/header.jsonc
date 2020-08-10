@@ -36,8 +36,8 @@
       "header-row#main": {
         "children": [
           "logo",
-          "search-bar",
           "header-spacer",
+          "search-bar",
           "minicart",
           "login"
         ],
