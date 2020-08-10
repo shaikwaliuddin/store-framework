@@ -51,7 +51,7 @@
           "noFollow": false,
           "tagTitle": "Electronics",
           "text": "Electronics"
-        },
+        }
       },
     "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
   },
