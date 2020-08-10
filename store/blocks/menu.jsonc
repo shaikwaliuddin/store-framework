@@ -10,52 +10,7 @@
         "orientation": "horizontal"
       }
   },
-  "menu-item#major-appliances": {
-    "props": {
-        "id": "menu-item-major",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Major Appliances",
-          "text": "Major Appliances"
-        }
-      },
-    "blocks": ["vtex.menu@2.x:submenu#major"], // Defining a submenu
-    "children": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
-  },
-  "menu-item#small-appliances": {
-    "props": {
-        "id": "menu-item-small",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Small Appliances",
-          "text": "Small Appliances"
-        }
-      },
-    "children": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
-  },
-  "menu-item#electronics": {
-    "props": {
-        "id": "menu-item-electronics",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Electronics",
-          "text": "Electronics"
-        }
-      },
-    "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
-  },
+  
   "vtex.menu@2.x:submenu#major":{
     "children":[
       "vtex.menu@2.x:menu#major"
@@ -63,7 +18,6 @@
   },
   "vtex.menu@2.x:menu#major":{
     "children":[
-
       "menu-item#refrigerators",
       "menu-item#ovens",
       "menu-item#washers"
