@@ -23,7 +23,8 @@
           "text": "Major Appliances"
         }
       },
-    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
+    "blocks": ["vtex.menu@2.x:submenu#major"], // Defining a submenu
+    "children": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   },
   "menu-item#small-appliances": {
     "props": {
