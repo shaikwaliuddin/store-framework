@@ -10,6 +10,12 @@
         "orientation": "horizontal"
       }
   },
+  "menu-item#major-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
+  },
+  "menu-item#small-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
+  },
   "vtex.menu@2.x:submenu#major":{
     "children":[
       "vtex.menu@2.x:menu#major",
